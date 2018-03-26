@@ -1,0 +1,134 @@
+@charset "utf-8";
+@import url("./normalize.css");
+@import url("./fonts.css");
+
+/* 초기화 스타일 */
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 숨김 스타일 */
+legend, .a11y-hidden{
+  background-color: #fff;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+  margin: -1px;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* 기본 스타일 */
+body{
+  background-color: #fff;
+  color: #181818;
+  font-family: 'Noto Sans Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* 컨테이너 */
+.container{
+  height: 100vh;
+  background: gray;
+}
+/* 레이아웃 공통 */
+.header, .main, .slogan{
+  width: 1000px;
+  margin: 0 auto;
+}
+/* 헤더 */
+.header{
+  background-color: yellow;
+}
+/* 로고 */
+.logo{
+  background-color: #fff;
+  float: left;  
+  margin: 0;
+  padding: 1em;
+}
+/* 멤버 링크 */
+.member{
+  background: #0f0;
+  float: right;
+}
+.member li{
+  float: left;
+}
+/* 검색 폼 */
+.search{
+  clear: both;
+  float: right;
+}
+.search fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* 네비게이션 */
+.navigation{
+  background-color: lime;
+  height: 10vh;
+}
+.main{
+  background-color: peachpuff;
+  /* display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;*/
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.main section{
+  height: 30vh;
+}
+.recommend-book{
+  width: 350px;
+  background-color: darkgoldenrod;
+  float: left;
+}
+.news{
+  width: 650px;
+  background-color: slateblue;
+  float: left;
+}
+.board{
+  width: 350px;
+  background-color: sienna;
+  float: left;
+}
+.twitter{
+  width: 400px;
+  background-color: darkkhaki;
+  float: left;
+}
+.favorite-site{
+  width: 250px;
+  background-color: firebrick;
+  float: right;
+  /* order: 1; */
+}
+/* 슬로건 */
+.slogan{
+  background-color: orange;
+  height: 10vh;
+  margin-top: 10px;
+}
+/* footer */
+.footer{
+  background-color: skyblue;
+  height: 10vh;
+}
