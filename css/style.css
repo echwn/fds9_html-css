@@ -34,16 +34,19 @@ body{
   color: #181818;
   font-family: 'Noto Sans Regular', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /* 컨테이너 */
 .container{
   height: 100vh;
   /* background: gray; */
 }
+
 /* 레이아웃 공통 */
 .header, .main, .slogan{
   width: 1000px;
   margin: 0 auto;
 }
+
 /* 헤더 */
 .header{
   background-color: #fff;
@@ -57,6 +60,7 @@ body{
   grid-column-gap: 20px;
   grid-template-rows: 50px 50px;
 }
+
 /* header::after{
   content: "";
   position: absolute;
@@ -66,6 +70,7 @@ body{
   height: 100%;
   background: repeating-linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 65px, transparent 65px, transparent 85px);
 } */
+
 /* 로고 */
 .logo{
   background-color: #fff;  
@@ -84,6 +89,7 @@ body{
 .logo a, .logo img{
   display: block;
 }
+
 /* 멤버 링크 */
 .member{
   -ms-grid-column: 2;
@@ -114,6 +120,7 @@ body{
 a:hover, a:focus {
   color: tomato;
 }
+
 /* 검색 폼 */
 .search{
   -ms-grid-column: 2;
@@ -143,10 +150,11 @@ input[type="search"]{
   height: 35px;
   padding: 5px;
   color: #fff;
-  border: 1px solid #666;
+  /* border: 1px solid #666; */
   border-radius: 5px;
   background-color: #988574;
 }
+
 /* 네비게이션 */
 .navigation{
   background-color: lime;
@@ -194,12 +202,14 @@ input[type="search"]{
   float: right;
   /* order: 1; */
 }
+
 /* 슬로건 */
 .slogan{
   background-color: orange;
   height: 10vh;
   margin-top: 10px;
 }
+
 /* footer */
 .footer{
   background-color: skyblue;
