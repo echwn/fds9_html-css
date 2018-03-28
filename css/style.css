@@ -172,26 +172,26 @@ input[type="search"]{
 .recommend-book{
   width: 350px;
   background-color: darkgoldenrod;
-
+  float: left;
 }
 .news{
   width: 650px;
   background-color: slateblue;
-
+  float: left;
 }
 .board{
   width: 350px;
-
+  float: left;
 }
 .twitter{
   width: 400px;
   background-color: darkkhaki;
-
+  float: left;
 }
 .favorite-site{
   width: 250px;
   background-color: firebrick;
-
+  float: right;
   /* order: 1; */
 }
 /* 슬로건 */
